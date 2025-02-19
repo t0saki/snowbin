@@ -1,0 +1,18 @@
+name = "tosakibin"
+compatibility_date = "2023-12-01"
+main = "src/index.tsx"
+
+[site]
+bucket = "./assets"
+
+[vars]
+key = "staylegalnoabuse"
+
+[[routes]]
+# Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
+pattern = "l.tsk.im"
+custom_domain = true
+
+[[kv_namespaces]]
+binding = "pastes"
+id = "60c91fb92cb94e0aab43b89311a36cc2"
