@@ -10,7 +10,7 @@ key = "staylegalnoabuse"
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "l.tsk.im"
+pattern = "b.tsk.im"
 custom_domain = true
 
 [[kv_namespaces]]
